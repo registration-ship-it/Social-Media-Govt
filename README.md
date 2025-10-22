@@ -43,16 +43,18 @@
         color: #fff;
         box-shadow: 0 5px 20px rgba(0,0,0,0.3);
         z-index: 1000;
+        text-align: center;
+        letter-spacing: 0.5px;
     }
 
     body {
-        padding-top: 70px; /* for fixed header */
+        padding-top: 80px; /* leave space for fixed header */
     }
 
     /* Card */
     .card {
-        background: rgba(255, 255, 255, 0.05);
-        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(25px);
         border-radius: 25px;
         padding: 50px 40px;
         max-width: 500px;
@@ -71,13 +73,14 @@
         font-weight: 700;
         margin-bottom: 15px;
         letter-spacing: 1px;
+        color: #4da6ff;
     }
 
     p {
         font-size: 18px;
-        color: #ddd;
+        color: #e6e6e6;
         margin-bottom: 40px;
-        line-height: 1.5;
+        line-height: 1.6;
     }
 
     /* Social Links */
@@ -105,15 +108,16 @@
     .social-links a:hover {
         background: #fff;
         color: #203a43;
-        transform: scale(1.3);
+        transform: scale(1.2);
         box-shadow: 0 12px 35px rgba(0,0,0,0.6);
     }
 
     footer {
-        margin-top: 40px;
+        margin-top: 50px;
         font-size: 14px;
         color: #ccc;
         font-weight: 400;
+        text-align: center;
     }
 
     /* Responsive */
@@ -148,12 +152,12 @@
 <!-- Card -->
 <div class="card">
     <h1>Follow Us</h1>
-    <p>Stay connected with us on social media to get latest updates, programs, and initiatives.</p>
+    <p>Stay connected with us on social media to get the latest updates, programs, and initiatives.</p>
 
     <div class="social-links">
-        <a href="https://www.facebook.com/share/19xVVwmsvV/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/skill_tripura_official_?igsh=cHd2dGhrZ2Ewcjgw" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://x.com/TSDM_2015" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.facebook.com/share/19xVVwmsvV/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/skill_tripura_official_?igsh=cHd2dGhrZ2Ewcjgw" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://x.com/TSDM_2015" target="_blank" title="Twitter (X)"><i class="fab fa-x-twitter"></i></a>
     </div>
 </div>
 
